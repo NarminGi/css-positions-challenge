@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout</title>
+        <style>
+            * {
+                margin: 0;
+                text-decoration: none;
+            }
+            .navbar1 {
+                display: flex;
+                align-items: center;
+                height: 10vh;
+                background-color: rgb(49, 49, 49);
+                
+            }
+            .main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: pink;
+                height: 50vh;
+                font-size: 68px; 
+                font-weight: bold;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .navbar2 {
+                position: sticky;
+                top: 0;
+            }
+            a {
+                color: white;
+                margin: 0% 2%;
+            }
+            a::before {
+                content: "\2022"; 
+                font-size: 20px;
+                padding-right: 15px;
+                color: black;
+            }
+            .texts {
+                margin: 0% 8%;
+            }
+            .text {
+                margin: 5% 0%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar1">
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="main"><p>Products</p></div>
+            <nav class="navbar1 navbar2">
+                <a href="#">Hoses</a>
+                <a href="#">Rakes</a>
+                <a href="#">Sholves</a>
+            </nav>
+            <div class="texts">
+                <div class="text">
+                    <h3>Hoses</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius distinctio inventore, molestiae corrupti eum est tenetur culpa consequuntur repellendus, magnam hic a perferendis itaque voluptatem nulla quod accusamus quaerat.</p>
+                </div>
+                <div class="text">
+                    <h3>Rakes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestias sint facere porro? Adipisci, pariatur beatae quisquam ratione debitis facere consectetur nobis amet laboriosam fugiat facilis ab cum nihil aut!</p>
+                </div>
+                <div class="text">
+                    <h3>Sholves</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quidem assumenda? Numquam odit dolores exercitationem tempora aut harum voluptas nihil asperiores, vel, labore qui? Labore ab consectetur hic in iste.</p>
+                </div>
+                <div class="text">
+                    <h3>Hoses</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quam dolorem aspernatur adipisci minima consequatur incidunt fugiat nobis placeat eius! Natus at aperiam eum ipsam eaque aspernatur nisi similique sed!</p>
+                </div>
+                <div class="text">
+                    <h3>Rakes</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam id iusto, cumque amet rem voluptatum sint accusantium tenetur quas autem, pariatur rerum magnam repellendus nemo itaque animi deleniti reprehenderit recusandae.</p>
+                </div>
+                <div class="text">
+                    <h3>Sholves</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, temporibus nisi? Nobis, illo. Laudantium ad temporibus doloremque expedita praesentium a incidunt velit repellendus, ab, nisi suscipit impedit enim consectetur optio?</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
